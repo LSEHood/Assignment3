@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ass3</string>
+    <string name="how_are_you_feeling">How are you feeling?</string>
+    <string name="skills_list">Skills List</string>
+    <string name="very_sad_face">very sad face</string>
+    <string name="sad_face">sad face</string>
+    <string name="meh_face">meh face</string>
+    <string name="happy_face">happy face</string>
+    <string name="very_happy_face">very happy face</string>
+</resources>
