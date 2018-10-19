@@ -13,40 +13,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.tiip_activity);
     }
 
-    public void onGreat(View view) {
-        Toast.makeText(this, "My day was great!",
-                Toast.LENGTH_LONG).show();
-    }
 
-    public void onGood(View view) {
-        Toast.makeText(this, "My day was good.",
-                Toast.LENGTH_LONG).show();
-    }
-
-    //low distress
-    public void onMeh(View view) {
-        Toast.makeText(this, "My day was okay.",
-                Toast.LENGTH_LONG).show();
-    }
-
-    //moderate distress
-    public void onWorse(View view) {
-        Toast.makeText(this, "My day wasn't good.",
-                Toast.LENGTH_LONG).show();
-    }
-
-    //high distress
-    public void onWorst(View view) {
-        Toast.makeText(this, "My day was the worst!",
-                Toast.LENGTH_LONG).show();
-    }
-
-    public void onSkillsList(View view) {
-        Toast.makeText(this, "These are my skills!",
-                Toast.LENGTH_LONG).show();
-    }
 }
 

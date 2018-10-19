@@ -7,4 +7,17 @@
     <string name="meh_face">meh face</string>
     <string name="happy_face">happy face</string>
     <string name="very_happy_face">very happy face</string>
+    <string name="tiip">
+        <![CDATA[
+        TEMPERATURE<br/><br/>
+        When we’re upset, our bodies often feel hot. To counter this, splash your face with cold water, hold an ice cube, or let the car’s AC blow on your face. Changing your body temperature will help you cool down—both physically and emotionally.<br/><br/>
+        INTENSE EXERCISE<br/><br/>
+        Do intense exercise to match your intense emotion. You’re not a marathon runner? That’s okay, you don’t need to be. Sprint down to the end of the street, jump in the pool for a few laps, or do jumping jacks until you’ve tired yourself out. Increasing oxygen flow helps decrease stress levels. Plus, it’s hard to stay dangerously upset when you’re exhausted.<br/><br/>
+        PACED BREATHING<br/><br/>
+        Even something as simple as controlling your breath can have a profound impact on reducing emotional pain. There are many different types of breathing exercises. If you have a favourite, breathe it out. If you don’t, try a technique called “box breathing”. Each breath interval will be four seconds long. Take in air four seconds, hold it in four seconds, breathe out four, and hold four. And then start again. Continue to focus on this breathing pattern until you feel more calm. Steady breathing reduces your body’s fight or flight response.<br/><br/>
+        PAIRED MUSCLE RELAXATION<br/><br/>
+        The science of paired muscle relaxation is fascinating. When you tighten a voluntary muscle, relax it, and allow it to rest, the muscle will become more relaxed than it was before it was tightened. Relaxed muscles require less oxygen, so your breathing and heart rate will slow down.<br/><br/>
+        Try this technique by focusing on a group of muscles, such as the muscles in your arms. Tighten the muscles as much as you can for five seconds. Then let go of the tension. Let the muscles relax, and you’ll begin to relax, as well.]]
+        ']]>
+    </string>
 </resources>
