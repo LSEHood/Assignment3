@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillAccepts">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/skillName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accepts"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activities"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contributing"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comparisons"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emotions"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Push Away"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thoughts"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sensations"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This skill helps you tolerate your distress until the appropriate time to resolve the situation."
+                android:gravity="center"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/initButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Home" />
+</LinearLayout>

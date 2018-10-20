@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillImprove">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/skillName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMPROVE"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imagery"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meaning"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prayer"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prayer"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One thing in the moment"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacation"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Encouragement"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This skill helps you tolerate and improve emotions until the intensity subsides."
+                android:gravity="center"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/initButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Home" />
+</LinearLayout>

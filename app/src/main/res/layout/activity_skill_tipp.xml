@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkillTIPP">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/skillName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIPP"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperature"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intense Exercising"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paced Breathing"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paired Muscle Relaxation"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/exp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using TIPP helps bring you down from your emotional ledge so you can handle the situation productively. This skill is good for immediate but short term relief."
+                android:gravity="center"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/initButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Home" />
+</LinearLayout>
