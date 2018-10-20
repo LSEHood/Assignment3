@@ -5,15 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="10"
-    tools:context=".MainActivity">
+    tools:context=".AbleToChange">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Find the right distress tolerance skills for you!"
-        android:textSize="30sp" />
+        android:text="INSERT SKILLS LIST"
+        android:textSize="30sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,17 +20,17 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/startButton"
+            android:id="@+id/yesButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Start" />
+            android:text="Yes" />
 
         <Button
-            android:id="@+id/skillsButton"
+            android:id="@+id/noButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="All Skills" />
+            android:text="No" />
     </LinearLayout>
 </LinearLayout>

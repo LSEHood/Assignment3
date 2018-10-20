@@ -16,6 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".StartUpQuestion" />
+        <activity android:name=".Anticipate" />
+        <activity android:name=".Anxiety" />
+        <activity android:name=".Regret" />
+        <activity android:name=".AreYouSure" />
+        <activity android:name=".SeeTherapist" />
+        <activity
+            android:name=".AbleToChange"
+            android:label="@string/title_activity_able_to_change"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EmotionalBreaking" />
+        <activity android:name=".Distractions" />
+        <activity android:name=".LearnToTolerate" />
+        <activity android:name=".KeepSuffering" />
+        <activity android:name=".KeepDoing" />
+        <activity android:name=".SkillImprove" />
+        <activity android:name=".SkillSelfSoothe1" />
+        <activity android:name=".SkillAccepts" />
+        <activity android:name=".SkillTIPP" />
+        <activity android:name=".SkillRadicalAcceptance" />
+        <activity android:name=".SkillSelfSoothe2" />
+        <activity android:name=".SkillProsNCons" />
+        <activity android:name=".SkillProsNCons2" />
+        <activity android:name=".SkillSelfSoothe3"></activity>
     </application>
 
 </manifest>
